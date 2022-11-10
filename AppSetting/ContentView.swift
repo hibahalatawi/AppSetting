@@ -16,6 +16,8 @@ struct ContentView: View {
         NavigationView {
             ZStack{
                 
+                
+                
                 VStack{
                     
                     Divider().font(.title)
@@ -26,7 +28,7 @@ struct ContentView: View {
                             Section() {
                                 Picker(selection:  $arENInex, label: Text("Langauge")) {
                                     
-                                    ForEach(0 ..< arEN.count) {Text(self.arEN[$0])}}}
+                                        ForEach(0 ..< arEN.count) {Text(self.arEN[$0])}}}
                             
                         }
                         
